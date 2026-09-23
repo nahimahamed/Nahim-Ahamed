@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fahad — Personal Portfolio</title>
+<style>
+:root{--bg:#070707;--card:#101010;--text:#f5f5f2;--muted:#9a9a96;--line:#252525}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 26px}
+nav{position:fixed;top:0;left:0;right:0;z-index:5;background:#070707dd;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff0b}.nav{height:72px;display:flex;justify-content:space-between;align-items:center}.logo{font-weight:800;font-size:20px}.links{display:flex;gap:25px;list-style:none;font-size:13px;color:var(--muted)}.links a:hover{color:#fff}
+.hero{min-height:100vh;display:grid;grid-template-columns:1.3fr .7fr;gap:70px;align-items:center;padding-top:72px}.kicker,.label{font-size:11px;text-transform:uppercase;letter-spacing:.18em;color:#777}.kicker{margin-bottom:22px}h1{font-size:clamp(54px,8vw,104px);line-height:.92;letter-spacing:-.075em;margin:0}.lead{max-width:650px;color:var(--muted);font-size:18px;margin-top:28px}.actions{display:flex;gap:12px;margin-top:34px;flex-wrap:wrap}.btn{border:1px solid var(--line);padding:12px 18px;border-radius:10px;font-size:13px;font-weight:700}.primary{background:#f0f0eb;color:#080808;border-color:#f0f0eb}.photo{aspect-ratio:4/5;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,#171717,#0b0b0b);display:grid;place-items:center;color:#666;text-align:center;font-size:11px;text-transform:uppercase;letter-spacing:.12em}
+section{border-top:1px solid var(--line);padding:110px 0}.label{margin-bottom:14px}h2{font-size:clamp(38px,5vw,58px);line-height:1;letter-spacing:-.055em;margin:0 0 30px}.about{max-width:850px;color:#c4c4c0;font-size:19px}.about p+p{margin-top:18px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px}.meta{font-size:11px;color:#777;text-transform:uppercase;letter-spacing:.12em;margin-bottom:10px}.card h3{margin:0 0 8px;font-size:20px}.card p{color:var(--muted);font-size:14px;margin:0}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skill{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:25px}.skill b{display:block;font-size:17px;margin-bottom:7px}.skill span{font-size:13px;color:var(--muted)}.coming{min-height:170px}.badge{display:inline-block;border:1px solid #333;border-radius:999px;padding:4px 9px;font-size:10px;color:#aaa;text-transform:uppercase;letter-spacing:.12em;margin-bottom:15px}.travel{border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--card)}.travelimg{height:320px;display:grid;place-items:center;background:linear-gradient(135deg,#181818,#090909);color:#666;font-size:11px;text-transform:uppercase;letter-spacing:.15em}.traveltext{padding:28px;color:var(--muted)}.socials{display:flex;gap:12px;flex-wrap:wrap}.social{background:var(--card);border:1px solid var(--line);padding:12px 16px;border-radius:10px;font-size:13px}.contactgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.contact{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}.contact small{display:block;color:#777;text-transform:uppercase;letter-spacing:.12em;font-size:10px;margin-bottom:7px}.contact a{font-size:14px;word-break:break-word}footer{border-top:1px solid var(--line);padding:40px 0 55px;color:#666;font-size:12px}
+@media(max-width:800px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:125px}.photo{max-width:320px}.grid,.skills,.contactgrid{grid-template-columns:1fr}section{padding:75px 0}.about{font-size:17px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><div class="logo">Fahad.</div><ul class="links"><li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#travel">Travel</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="wrap hero"><div><div class="kicker">Personal Portfolio · Chattogram, Bangladesh</div><h1>Md Nahim<br>Ahamed Fahad</h1><p class="lead">A dedicated BBA student, lifelong knowledge seeker and passionate photographer who enjoys learning, exploring, travelling and sharing knowledge.</p><div class="actions"><a class="btn primary" href="#contact">Get in touch</a><a class="btn" href="#about">Explore portfolio</a></div></div><div class="photo">Profile photo<br>coming soon</div></header>
+
+<section id="about"><div class="wrap"><div class="label">01 — About</div><h2>A little about me.</h2><div class="about"><p>I am a dedicated, patient, and self-motivated person who believes in taking responsibility for my own work. I enjoy being active, committed, and sincere in whatever I do.</p><p>I love meeting new people, learning new things, exploring ideas, and sharing knowledge with others. Travelling is one of my favorite ways to explore the world and experience new perspectives. Along the way, I enjoy capturing moments through photography, which has developed into one of my passions as a photographer.</p><p>I proudly consider myself a <b>knowledge seeker</b>. I want to spend my life continuously learning, exploring, and expanding my understanding of the world. My ultimate goal is not only to gain knowledge but also to use what I learn for the benefit and well-being of others.</p></div></div></section>
+
+<section id="education"><div class="wrap"><div class="label">02 — Education</div><h2>My academic journey.</h2><div class="grid">
+<div class="card"><div class="meta">University</div><h3>International Islamic University Chattogram</h3><p>Bachelor of Business Administration (BBA)</p></div>
+<div class="card"><div class="meta">College</div><h3>Chattogram Bandar College</h3><p>Higher Secondary Education · Business Studies</p></div>
+<div class="card"><div class="meta">School</div><h3>Port Authority High School</h3><p>Secondary Education · Business Studies</p></div>
+<div class="card"><div class="meta">Primary</div><h3>Bandar South Residential Area Primary School</h3><p>Primary Education</p></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap"><div class="label">03 — Skills</div><h2>What I bring.</h2><div class="skills">
+<div class="skill"><b>Communication</b><span>Clear communication, confident interaction and positive relationship building.</span></div>
+<div class="skill"><b>Microsoft Office</b><span>Creating documents, presentations and managing information with Office tools.</span></div>
+<div class="skill"><b>Leadership</b><span>Taking responsibility, working proactively and contributing effectively to a team.</span></div>
+</div></div></section>
+
+<section id="work"><div class="wrap"><div class="label">04 — Work</div><h2>Projects & experience.</h2><div class="grid">
+<div class="card coming"><span class="badge">Coming Soon</span><h3>Projects / Assignments</h3><p>Academic projects, assignments and future work will be featured here.</p></div>
+<div class="card coming"><span class="badge">Coming Soon</span><h3>Experience</h3><p>Professional, volunteer, organizational or other experiences will be added here.</p></div>
+<div class="card coming"><span class="badge">Coming Soon</span><h3>Achievements & Certificates</h3><p>Certificates, awards, courses and achievements will be added here.</p></div>
+</div></div></section>
+
+<section id="travel"><div class="wrap"><div class="label">05 — Travel & Photography</div><h2>Explore. Capture. Remember.</h2><div class="travel"><div class="travelimg">Photography gallery / travel stories coming soon</div><div class="traveltext">I enjoy travelling, exploring new places and discovering the stories, people and environments behind them. This space will feature the places I have visited, what I explored there, personal travel experiences and selected photographs.</div></div></div></section>
+
+<section id="social"><div class="wrap"><div class="label">06 — Social</div><h2>Find me online.</h2><div class="socials"><a class="social" href="https://www.facebook.com/nahim.ahamed.77/" target="_blank">Facebook ↗</a><a class="social" href="https://www.instagram.com/nahiim_ahamed/" target="_blank">Instagram ↗</a></div></div></section>
+
+<section id="contact"><div class="wrap"><div class="label">07 — Contact</div><h2>Let's connect.</h2><div class="contactgrid">
+<div class="contact"><small>Email</small><a href="mailto:nahimahamed.official@gmail.com">nahimahamed.official@gmail.com</a></div>
+<div class="contact"><small>Phone</small><a href="tel:+8801575828468">+880 1575 828468</a></div>
+<div class="contact"><small>WhatsApp</small><a href="https://wa.me/8801575828468" target="_blank">Chat on WhatsApp ↗</a></div>
+</div></div></section>
+<footer><div class="wrap">© 2026 Md Nahim Ahamed Fahad · Personal Portfolio</div></footer>
+</body></html>
